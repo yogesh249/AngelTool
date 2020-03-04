@@ -5,6 +5,7 @@ This is a tool created to store problems and their solutions. This tool is writt
 Steps to deploy on your local machine.
 1. Install Tomcat on your machine.
 2. Open tomat manager, and deploy the war file MyAngelStruts.war
+    a. After deployment, go to the deployed folder and check the credentials in hibernate.cfg.xml is correct.
 3. Install MySQL 5.5 version (Do not install 8.0 version, it gives some connection problem).
 4. Run the following sql queries
 
